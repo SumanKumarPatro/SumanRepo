@@ -9,6 +9,11 @@ Ecolab.Contact = {
 
         Ecolab.Contact.Validate();
     },
+    FormOnSave = {
+        Xrm.Navigation.openAlertDialog({
+                    text: "Saving the Form"
+                })
+    }
 
     OnLoad: function () {
         "use strict";
@@ -874,4 +879,5 @@ Ecolab.Contact.Ribbon.SubGrid.EnableRule = {
         }
     }
 }
+
 
